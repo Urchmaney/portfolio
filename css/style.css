@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    color: #46494c;
+}
+body{
+
+}
+
+header{
+    position: fixed;
+    height: 100vh;
+    width: 10%;
+    background-color: #f7f0f5;
+}
+
+header > nav{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+header > nav ul li{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: lightgray;
+}
+
+.site-nav {
+    padding-top: 10px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ 
+
+.site-nav-name{
+    display: none;
+}
+
+.content{
+    width: 90%;
+    position: relative;
+    left: 10%;
+}
+#about{
+    background: linear-gradient(rgba(16,16,16,0.3), rgb(62,62,62)), url(/images/bb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    color: white;
+}   
+
+#about article{
+    text-align: center;
+    padding: 20px;
+    padding-top: 100px;
+}
+
+#about article h3{
+    font-size: 35px;
+}
+
+#about article p{
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.skill{
+    display: inline-block;
+    padding: 2px 5px;
+    background-color: #55d1e9;
+    border-radius: 10px;
+}
+
+#projects{
+    width: 70%;
+    position: relative;
+    border-radius: 5px;
+    top: -50px;
+    margin: auto;
+}
+
+#medico{
+    background-image: url(/images/medico.png);
+}
+
+#calc{
+    background-image: url(/images/calc.png);
+}
+
+#mfb{
+    background-image: url(/images/fb.png);
+}
+.project-image{
+    
+    width: 100%;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+.project{
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+.project h3{
+    border : 2px solid lightgray;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.project-links{
+    text-align: right;
+    margin-top: 15px;
+    letter-spacing: 10px;
+    height: 40px;
+    font-size: 20px;
+}
+#connect{
+    width:70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#connect img{
+    height: 250px;
+    width: 100%;
+    max-width: 300px;
+}
+.connect-details{
+    padding: 20px;
+}
+.connect-details p{
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.connect-details span{
+    display: inline-block;
+    margin-right: 10px;
+}
+footer{
+    margin-top: 20px;
+    text-align: center;
+    background-color: gray;
+    padding: 10px;
+    color: whitesmoke;
+}
+@media screen and (min-width : 992px) {
+    header{
+        height: 40px;
+        width: 100%;
+        background-color: transparent;
+        z-index: 1;
+    }
+    .content{
+        width: 100%;
+        left: 0;
+    }
+    header > nav ul li a{
+        color: whitesmoke;
+    }
+
+    .site-nav{
+        display: block;
+    }
+
+    .site-nav-name{
+        display: inline;
+    }
+    header > nav{
+        justify-content: space-around;
+        flex-direction: row;
+        padding: 5px;
+        height: 40px;
+    }
+    header > nav ul li{
+        display: inline-block;
+        margin-right: 25px;
+        font-size: 17px;
+    }
+    #projects{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .project{
+        width: 30%;
+    }
+
+    #connect{
+        width:70%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    #connect > div{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #connect img{
+        height: 300px;
+        width: 60%;
+        max-width: 1000px;
+    }
+    .connect-details{
+        margin-top: 50px;
+        margin-right: 20px;
+    }
+
+}
