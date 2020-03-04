@@ -52,7 +52,7 @@ header > nav ul li{
     left: 10%;
 }
 #about{
-    background: linear-gradient(rgba(16,16,16,0.3), rgb(62,62,62)), url(/images/bb.jpg);
+    background: linear-gradient(rgba(16,16,16,0.3), rgb(62,62,62)), url(../images/bb.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
