@@ -90,15 +90,15 @@ header > nav ul li{
 }
 
 #medico{
-    background-image: url(/images/medico.png);
+    background-image: url(../images/medico.png);
 }
 
 #calc{
-    background-image: url(/images/calc.png);
+    background-image: url(../images/calc.png);
 }
 
 #mfb{
-    background-image: url(/images/fb.png);
+    background-image: url(../images/fb.png);
 }
 .project-image{
     
