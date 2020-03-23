@@ -24,18 +24,18 @@ header > nav{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 header > nav ul li{
     text-align: center;
-    font-size: 22px;
+    font-size: 18px;
     margin-bottom: 15px;
     color: lightgray;
 }
 
 .site-nav {
-    padding-top: 10px;
+    padding-top: 40px;
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -200,6 +200,7 @@ footer{
         padding-top: 10px;
     }
     .site-nav{
+        padding-top: 10px;
         display: block;
     }
 
