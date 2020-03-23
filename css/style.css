@@ -7,9 +7,10 @@
 }
 a{
     color: #46494c;
+    cursor: pointer;
 }
-body{
-
+html{
+    scroll-behavior: smooth;
 }
 
 header{
@@ -52,7 +53,7 @@ header > nav ul li{
     left: 10%;
 }
 #about{
-    background: linear-gradient(rgba(16,16,16,0.3), rgb(62,62,62)), url(../images/bb.jpg);
+    background: linear-gradient(rgba(16,16,16,0.3), rgb(62,62,62)), url(../images/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
@@ -99,6 +100,18 @@ header > nav ul li{
 
 #mfb{
     background-image: url(../images/fb.png);
+}
+
+#bookstore{
+    background-image: url(../images/bookstore.png);
+}
+
+#battleship{
+    background-image: url(../images/battleship.png);
+}
+
+.fa-globe{
+    color: #588bea;
 }
 .project-image{
     
@@ -163,6 +176,10 @@ footer{
         background-color: transparent;
         z-index: 1;
     }
+
+    .headeOffColor{
+        background-color: #363738;
+    }
     .content{
         width: 100%;
         left: 0;
@@ -170,7 +187,9 @@ footer{
     header > nav ul li a{
         color: whitesmoke;
     }
-
+    .social-nav{
+        padding-top: 10px;
+    }
     .site-nav{
         display: block;
     }
