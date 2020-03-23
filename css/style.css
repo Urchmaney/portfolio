@@ -139,6 +139,15 @@ header > nav ul li{
     height: 40px;
     font-size: 20px;
 }
+.stack{
+    text-align: left;
+}
+
+.stack img{
+    height: 15px;
+    width: 15px;
+}
+
 #connect{
     width:70%;
     margin: 0 auto;
