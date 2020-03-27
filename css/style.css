@@ -77,6 +77,8 @@ header > nav ul li{
 
 .skill{
     display: inline-block;
+    margin-bottom: 5px;
+    margin-top: 5px;
     padding: 2px 5px;
     background-color: #55d1e9;
     border-radius: 10px;
@@ -225,6 +227,7 @@ footer{
         margin-right: 25px;
         font-size: 17px;
     }
+
     #projects{
         display: flex;
         flex-wrap: wrap;
@@ -256,4 +259,10 @@ footer{
         margin-right: 20px;
     }
 
+}
+
+@media screen and (max-width : 700px) {
+    #about{
+        height: 90vh;
+    }
 }
