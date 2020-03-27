@@ -121,6 +121,12 @@ header > nav ul li{
     background-repeat: no-repeat;
     height: 300px;
 }
+
+.project-image:hover{
+    cursor: pointer;    
+    box-shadow: 4px 4px 4px 4px lightgray;
+}
+
 .project{
     background-color: white;
     border-radius: 5px;
@@ -200,6 +206,7 @@ footer{
         padding-top: 10px;
     }
     .site-nav{
+        height: 20px;
         padding-top: 10px;
         display: block;
     }
