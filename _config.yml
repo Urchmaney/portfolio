@@ -26,6 +26,10 @@ url: "http://unegbukingsley.com" # the base hostname & protocol for your site, e
 twitter_username: kingsleyunegbu
 github_username:  urchmaney
 
+rrss:
+  github: "https://github.com/urchmaney"
+  stackoverflow: "https://stackoverflow.com/users/11658084/urchmaney"
+
 # Build settings
 theme: awesome-jekyll-theme
 plugins:
