@@ -19,16 +19,25 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Unegbu Kingsley
+logo: "./assets/images/logo.png"
 email: your-email@example.com
 description: Welcome to the world of Unegbu Kingsley
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl:  # the subpath of your site, e.g. /blog
 url: "http://unegbukingsley.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: kingsleyunegbu
 github_username:  urchmaney
 
+
 rrss:
   github: "https://github.com/urchmaney"
   stackoverflow: "https://stackoverflow.com/users/11658084/urchmaney"
+  linkedin: "https://www.linkedin.com/in/kingsley-uche/"
+  telegram: ""
+  discord: ""
+  mastodon: ""
+  email: ""
+
+
 
 # Build settings
 theme: awesome-jekyll-theme
