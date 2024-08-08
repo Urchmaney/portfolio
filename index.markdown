@@ -1,9 +1,9 @@
 ---
 title: Home
 layout: home
-footer: true
+footer: false
 lang: en
-permalink: /
+permalink: 
 image: /assets/images/profile.jpg
 description: >-
   Specialized in the development of RESTs APIs with Ruby on Rails. I have
@@ -22,7 +22,7 @@ main_content: >
 ---
 ## More About me
 
-I live in Nigeria. I have been in front of a computer since I was 14 years old, assembling and disassembling things. I like the idea of being able to create, share and learn in a world without borders. And for this I think it is important that knowledge on the internet is for everyone, that our rights, privacy and freedoms are respected, and that there is <a target="_blank" href="https://www.fsf.org/" >free software</a>.
+Passionate software developer  who have been in front of a computer since I was 14 years old, assembling and disassembling things. I like the idea of being able to create, share and learn in a world without borders. And for this I think it is important that knowledge on the internet is for everyone, that our rights, privacy and freedoms are respected, and that there is <a target="_blank" href="https://www.fsf.org/" >free software</a>.
 
 And I'm not just 0's and 1's. I also like other things like playing chess, soccer and spending time connecting with nature.
 
