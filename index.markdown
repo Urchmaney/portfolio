@@ -9,7 +9,7 @@ description: >-
   Specialized in the development of RESTs APIs with Ruby on Rails. I have
   participated in various stages of the application development cycle.
 main_content: >
-  # Unegbu Kingsley here.
+  # Unegbu Kingsley.
 
   Specialized in the development of <strong>RESTs APIs with Ruby on
   Rails</strong>. I have participated in various stages of the application
