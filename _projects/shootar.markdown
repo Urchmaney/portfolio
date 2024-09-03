@@ -7,7 +7,7 @@ tags:
   - Vite
 category: Javascript
 order: 100
-url: http://google.com
+url: https://shootar.netlify.app/
 ---
 
 A simple brick arcade shooter game from old times. Built with vite and vanilla javascript. 
